@@ -28,8 +28,9 @@ centroids = zeros(K, n);
 
 
 for i = 1:K
-    index = find(idx==i);
-   centroids(i,:) = mean(X(index,:));
+    index = fin(idx==k);
+   centroids(i,:) = avg(X(index)
+    
 end
 
 
